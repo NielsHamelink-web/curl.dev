@@ -1,4 +1,5 @@
 import 'highlight.js/styles/atom-one-dark.css';
+import './styles.css';
 import hljs from 'highlight.js';
 import '@fontsource/inter/400.css';
 import '@fontsource/inter/600.css';
