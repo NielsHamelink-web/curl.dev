@@ -5,6 +5,7 @@ import '@fontsource/inter/400.css';
 import '@fontsource/inter/600.css';
 import '@fontsource/lora/400.css';
 import '@fontsource/lora/700.css';
+import logoUrl from './assets/curl-logo.svg';
 
 document.addEventListener('DOMContentLoaded', function(){
   if(window.hljs === undefined){
@@ -12,6 +13,10 @@ document.addEventListener('DOMContentLoaded', function(){
     window.hljs = hljs;
   }
   if(window.hljs) window.hljs.highlightAll();
+
+  // Set bundled logo path (so the svg is included in the Vite build)
+  const logoEl = document.getElementById('site-logo');
+  if(logoEl) logoEl.src = logoUrl;
 
   document.querySelectorAll('.copy-btn').forEach(function(btn){
     btn.addEventListener('click', async function(){
