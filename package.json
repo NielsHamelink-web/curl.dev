@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "highlight.js": "^11.8.0",
-    "@fontsource/inter": "^4.5.14",
-    "@fontsource/lora": "^4.5.14"
+    "@fontsource/inter": "^4.5.13",
+    "@fontsource/lora": "^4.5.13"
   },
   "devDependencies": {
     "live-server": "^1.2.2",
