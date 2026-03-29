@@ -8,7 +8,9 @@
     "serve": "npm run start"
   },
   "dependencies": {
-    "highlight.js": "^11.8.0"
+    "highlight.js": "^11.8.0",
+    "@fontsource/inter": "^4.5.14",
+    "@fontsource/lora": "^4.5.14"
   },
   "devDependencies": {
     "live-server": "^1.2.2"
