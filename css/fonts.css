@@ -1,0 +1,14 @@
+/* Local font imports to avoid Google Fonts */
+@import url('/node_modules/@fontsource/inter/400.css');
+@import url('/node_modules/@fontsource/inter/600.css');
+@import url('/node_modules/@fontsource/lora/400.css');
+@import url('/node_modules/@fontsource/lora/700.css');
+
+/* Fallbacks (optional) */
+body {
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lora, Georgia, 'Times New Roman', Times, serif;
+}
