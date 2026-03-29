@@ -1,0 +1,16 @@
+{
+  "name": "curl.dev",
+  "version": "0.1.0",
+  "description": "Static site for curl.dev",
+  "private": true,
+  "scripts": {
+    "start": "live-server --port=8080 --open=./index.html",
+    "serve": "npm run start"
+  },
+  "dependencies": {
+    "highlight.js": "^11.8.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
