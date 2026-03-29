@@ -1,0 +1,3 @@
+# Ignore built CSS files
+*
+!.gitignore
