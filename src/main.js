@@ -5,6 +5,8 @@ import '@fontsource/inter/400.css';
 import '@fontsource/inter/600.css';
 import '@fontsource/lora/400.css';
 import '@fontsource/lora/700.css';
+import '@fontsource/merriweather/400.css';
+import '@fontsource/merriweather/700.css';
 import logoUrl from './assets/curl-logo.svg';
 
 document.addEventListener('DOMContentLoaded', function(){
